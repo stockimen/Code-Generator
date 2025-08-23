@@ -40,7 +40,7 @@ public class DynamicFileGenerator {
         // 创建模板对象，加载指定模板
         Template template = configuration.getTemplate(templateName);
 
-        if (!FileUtil.exist(outputPath)){
+        if (!FileUtil.exist(outputPath)) {
             FileUtil.touch(outputPath);
         }
 

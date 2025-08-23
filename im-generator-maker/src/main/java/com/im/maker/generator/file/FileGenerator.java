@@ -3,7 +3,7 @@ package com.im.maker.generator.file;
 /**
  * 核心生成器
  */
-public class FileGenerator  {
+public class FileGenerator {
 //    /**
 //     * 生成
 //     *

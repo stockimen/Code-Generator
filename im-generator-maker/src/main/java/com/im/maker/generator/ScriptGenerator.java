@@ -35,7 +35,7 @@ public class ScriptGenerator {
     }
 
     public static void main(String[] args) throws IOException {
-        String outputPath = System.getProperty("user.dir")+"/generator";
+        String outputPath = System.getProperty("user.dir") + "/generator";
         doGenerate(outputPath, "");
     }
 }
